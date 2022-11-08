@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  globalexceptionhandling:
+    image: ${DOCKER_REGISTRY-}globalexceptionhandling
+    build:
+      context: .
+      dockerfile: Dockerfile
